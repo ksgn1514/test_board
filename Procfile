@@ -1,1 +1,1 @@
-web java -Dserver.port=$PORT -Dspring.profiles.active=production $JAVA_OPTS -jar "target/board.jar"
+web: java -jar build/libs/board-0.0.1-SNAPSHOT-plain.jar --spring.profiles.active=prod
