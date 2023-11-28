@@ -1,1 +1,1 @@
-web: java -jar target/board-1.0.0.jar --spring.profiles.active=prod
+web: java -jar build/libs/board-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
